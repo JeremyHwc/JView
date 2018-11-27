@@ -1,7 +1,7 @@
 # JView（Android自定义控件学习记录库）
 
 ## Canvas绘制图形
-### Canvas的常用操作速查表
+### 一、Canvas的常用操作速查表
 操作类型|相关API|备注
 :---:|:---:|:---:
 绘制颜色|drawColor, drawRGB, drawARGB|使用单一颜色填充整个画布
