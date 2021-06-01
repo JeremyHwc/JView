@@ -1,35 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><!--
-<com.tencent.jview.MyScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <com.tencent.jview.MyButton
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:background="@color/colorPrimary"
-            android:text="测试Cancel事件" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="1500dp"
-            android:background="@color/colorAccent" />
-    </LinearLayout>
-</com.tencent.jview.MyScrollView>-->
-<com.tencent.jview.MyViewGourp xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <com.tencent.jview.MyView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:background="@color/colorAccent" />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/motion_event_check"
+        android:text="事件分发机制验证"
+        android:layout_height="50dp"/>
 
-</com.tencent.jview.MyViewGourp>
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/recyclerView_refresh"
+        android:text="RecyclerView下拉刷新"
+        android:layout_height="50dp"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
